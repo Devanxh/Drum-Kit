@@ -14,7 +14,7 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function (){
 
 }
 
-document.addEventListener('keydown',function(event){
+document.addEventListener("keydown",function(event){
     sound(event.key);
     animation(event.key);
 });
